@@ -1,0 +1,29 @@
+html {scroll-behavior: smooth;}
+body{margin:0}
+#carte {position: relative; height: 360px; background-repeat: no-repeat; background-size: cover; background-position:center; 
+    display: flex; flex-direction: column; justify-content: center; align-items: center; }
+#diaporama {
+    position: relative;
+    width: 700px;         
+    height: 300px;        
+    margin:  20px auto;   
+    overflow: visible;  
+    text-align:center;         
+    min-height: 100vh;
+}
+#list1 {
+    position: absolute;
+    margin:0;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 250px;           
+    padding: 0;
+}
+#list1 {width: 90%; margin:0 auto;}
+#list1 img{width: 100%;}
+#btnNavigation {
+    margin:auto;
+    margin-top: 250px;
+    visibility: hidden;
+}
